@@ -1,3 +1,4 @@
+layout: {zmk_keyboard: keyball61}
 layers:
   QWRT:
   - $$mdi:keyboard-esc$$
@@ -433,3 +434,12 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+combos:
+- p: [26, 27]
+  k: {t: '[', s: '{'}
+- p: [27, 28]
+  k: '{'
+- p: [31, 32]
+  k: '}'
+- p: [32, 33]
+  k: {t: ']', s: '}'}
